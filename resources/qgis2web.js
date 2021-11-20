@@ -679,7 +679,7 @@ map.on("rendercomplete", function(evt) {
         var attributionList = attribution.getElementsByTagName('ul')[0];
         var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
         var qgis2webAttribution = document.createElement('li');
-        qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot; ';
+        qgis2webAttribution.innerHTML = '<a href="https://docs.google.com/spreadsheets/d/1q3dHH_lher2V7N8JfrV6utXUhGE33OgwF3xOWdCW7LE/edit#gid=0"><div><h1>REKAPITULASI </h1></div></a> &middot; ';
         var olAttribution = document.createElement('li');
         olAttribution.innerHTML = '<a href="https://openlayers.org/">OpenLayers</a> &middot; ';
         var qgisAttribution = document.createElement('li');
@@ -690,3 +690,4 @@ map.on("rendercomplete", function(evt) {
         attributionComplete = true;
     }
 })
+
