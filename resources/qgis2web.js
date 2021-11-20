@@ -690,4 +690,3 @@ map.on("rendercomplete", function(evt) {
         attributionComplete = true;
     }
 })
-
